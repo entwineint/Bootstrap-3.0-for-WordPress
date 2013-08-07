@@ -9,11 +9,11 @@
  * Last Revised: August 6, 2013
  */
 ?>
-	<div class="footer">
-		<p>&copy; <?php bloginfo('name'); ?> <?php the_time('Y') ?></p>
+	<footer>
 		<p class="pull-right"><a href="#">Back to top</a></p>
+		<p>&copy; <?php bloginfo('name'); ?> <?php the_time('Y') ?></p>
+	</footer>
 	</div>
-</div>
 	<?php wp_footer(); ?>
-  </body>
+</body>
 </html>

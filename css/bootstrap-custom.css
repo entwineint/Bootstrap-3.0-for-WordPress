@@ -1,0 +1,41 @@
+/* Maker room for fixed nav --- comment out if you not using fixed nav */
+
+body { 
+	padding-top: 70px; 
+}
+
+/* Give the footer a little space and a border */
+
+footer {
+	border-top:1px #eeeeee solid;
+	margin:30px 0;
+	padding:30px 0;
+}
+
+/* Make all images responsive */
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+/* Setup the meta section */
+
+.meta{
+	margin-top:20px;
+}
+
+.meta ul{
+	margin:0;
+	padding:0;
+}
+
+.meta ul li{
+	list-style: none;
+	display:inline-block;
+	margin-right:5px;
+}
+
+.comments{
+	
+}
